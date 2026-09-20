@@ -1,0 +1,17 @@
+{
+  "name": "pingroom-relay",
+  "version": "1.0.0",
+  "description": "Prosty serwer-relay dla moda Ping Room (pokoje z kodem + przekazywanie pingów)",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
